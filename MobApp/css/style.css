@@ -55,20 +55,20 @@ h1 {
 h2 {
     font-size: 35px;
     font-weight: 300;
-    color: #633991;
+    color: #078E87;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #633991;
+    color: #078E87;
     font-size: 33px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 h4 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     color: #633991;
 }
 
@@ -85,7 +85,7 @@ p {
 
 p.lead {
     color: #e38cb7;
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
 }
 
 .text-primary {
@@ -109,15 +109,11 @@ p.lead {
 }
 
 .btn-primary {
-    border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #F48183;
     font-weight: 400;
     padding: 0.6rem 2rem;
-    border: 0;
+    border-color: #F48183;
 }
 
 .btn-primary:hover,
@@ -126,15 +122,14 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #fd378e 0%, #e54595 100%);
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
-    color: #FFF;
+    background-color: #FFF;
+    border-color: #F48183;
+    color: #F48183;
 }
 
 .btn-light {
     border-radius: 3px;
     background: #FFF;
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
     color: #633991;
@@ -154,7 +149,11 @@ p.lead {
 }
 
 .section {
-    padding: 60px 0 0 30px;
+    padding: 60px 0 60px 30px;
+}
+
+.section-top {
+  padding: 120px 0 0 100px;
 }
 
 .section-title {
@@ -189,7 +188,7 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background-color: rgb(220,220,220,0.5);
+    background-color: none;
 }
 
 .nav-menu.is-scrolling {
@@ -288,7 +287,6 @@ header {
 .card.features {
     border: 0;
     border-radius: 3px;
-    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease;
 }
 
@@ -315,18 +313,14 @@ header {
 }
 
 .card-text {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .card.features:hover {
     transform: translateY(-3px);
-    -moz-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
-    -webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
 }
 
 .box-icon {
-    box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.14);
     padding: 10px;
     width: 70px;
     border-radius: 3px;
@@ -335,7 +329,6 @@ header {
 }
 
 .circle-icon {
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
     padding: 10px;
     width: 100px;
     height: 100px;
@@ -364,7 +357,6 @@ header {
     background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
     background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
     background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
 
@@ -399,7 +391,6 @@ header {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     background-color: #FFF;
-    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
     padding: 3rem;
 }
 
@@ -446,7 +437,6 @@ header {
     width: 110px;
     margin: 30px auto;
     border-radius: 50%;
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
 .testimonials-single {
@@ -498,7 +488,6 @@ header {
 
 .owl-theme .owl-dots .owl-dot.active span {
     background: #ff487e;
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
 
@@ -506,7 +495,6 @@ header {
 ----------------------*/
 
 .img-gallery .owl-item {
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
     transform: scale(0.8);
     transition: all 0.3s ease-in;
 }
@@ -536,7 +524,6 @@ header {
 .card.pricing.popular {
     border-top-width: 3px;
     border-color: #ce75b4 #faf6fb #FFF;
-    box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
     color: #633991;
 }
 
@@ -617,7 +604,6 @@ header {
 
 .social-icons a {
     background-color: #FFF;
-    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.05);
     width: 50px;
     height: 50px;
     display: inline-block;
