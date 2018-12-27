@@ -62,13 +62,13 @@ h2 {
 
 h3 {
     color: #078E87;
-    font-size: 33px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 h4 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     color: black;
 }
 
@@ -88,6 +88,9 @@ p.lead {
     font-size: 18px;
 }
 
+p.text-light {
+  color: white;
+}
 .text-primary {
     color: #e38cb7 !important;
 }
@@ -97,7 +100,7 @@ p.lead {
 }
 
 .btn {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
     padding: 0.375rem 1.35rem;
@@ -141,15 +144,18 @@ p.lead {
 .btn-group-lg>.btn,
 .btn-lg {
     padding: 0.8rem 1rem;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .light-bg {
-    background-color: #fafeff;
+}
+
+.section-special {
+  background-color: #F48183;
+  padding: 0.1em 0em 0.1em 0em;
 }
 
 .section {
-    padding: 60px 0 60px 30px;
 }
 
 .section-top {
@@ -172,6 +178,15 @@ p.lead {
     h2 {
         font-size: 30px;
     }
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  overflow: hidden;
+  margin-top: 1em;
 }
 /* NAVBAR
 ----------------------*/
@@ -211,14 +226,6 @@ p.lead {
     }
 }
 
-@media (max-width:991px) {
-    .navbar-nav.is-scrolling {
-        padding-bottom: 1rem;
-    }
-    .navbar-nav .nav-item {
-        text-align: center;
-    }
-}
 
 
 /* HERO
@@ -258,7 +265,7 @@ header {
 
 @media (max-width:767px) {
     .tagline {
-        font-size: 17px;
+        font-size: 16px;
     }
     .img-holder {
         padding-bottom: 100%;
@@ -306,7 +313,7 @@ header {
 }
 
 .card-text {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .card.features:hover {
@@ -571,7 +578,7 @@ header {
 }
 
 .call-to-action h2 {
-    color: #633991;
+    color: black;
 }
 
 .call-to-action .tagline {
