@@ -46,8 +46,9 @@ a:focus {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 300;
+    color: #078E87;
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
 }
@@ -158,9 +159,6 @@ p.text-light {
 .section {
 }
 
-.section-top {
-  padding: 120px 0 0 100px;
-}
 
 .section-title {
     text-align: center;
@@ -178,21 +176,24 @@ p.text-light {
     h2 {
         font-size: 30px;
     }
+    h3 {
+      font-size: 25px;
+    }
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .container {
   overflow: hidden;
   margin-top: 1em;
 }
+
 /* NAVBAR
 ----------------------*/
 
 .nav-menu {
-    padding: 1rem 0;
     transition: all 0.3s ease;
 }
 
@@ -208,6 +209,7 @@ img {
 .navbar-nav .nav-link {
     position: relative;
 }
+
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -257,9 +259,33 @@ header {
     overflow: hidden;
 }
 
+.section-top {
+  padding: 120px 0 0 100px;
+}
+
 @media (max-width:1200px) {
     .img-holder {
         padding-bottom: 50%;
+    }
+    .section-top {
+      padding: 120px 0 0 100px;
+    }
+}
+
+@media (max-width:992px) {
+    .section-top {
+      padding: 50px 0 0 0px;
+    }
+    .img-main {
+        display: block;
+        margin: 0 auto;
+    }
+    #mainBook {
+      display: block;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
     }
 }
 
@@ -270,17 +296,39 @@ header {
     .img-holder {
         padding-bottom: 100%;
     }
+    .section-top {
+      padding: 40px 0 0 0;
+    }
+}
+
+@media (max-width:767px) {
+  #logoButton {
+    max-width: 80%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
 }
 
 
 /* FEATURES
 ----------------------*/
-
+#pullpic {
+  max-width: 11%;
+  height: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
 .gradient-fill:before {
     color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    background-image: url("toothbrush_coloured.png");
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -566,7 +614,6 @@ header {
 .call-to-action {
     text-align: center;
     color: #FFF;
-    margin: 3rem 0;
 }
 
 .call-to-action .box-icon {
