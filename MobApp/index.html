@@ -29,12 +29,12 @@ URI     : https://colorlib.com
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="30">
+<body>
 
     <!-- Nav Menu -->
 
-    <div class="nav-menu fixed-top">
-        <div class="container">
+    <div class="nav-menu">
+        <div class="container" id = "navContainer">
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-dark navbar-expand-lg">
@@ -62,29 +62,30 @@ URI     : https://colorlib.com
                   <div class="col-lg-6 offset-lg-6">
                       <h1>Discover independent dental hygiene</h1>
                       <a href="https://app.acuityscheduling.com/schedule.php?owner=17010520" target = "_blank" class="btn btn-primary" id = "mainBook" >Book an Appointment</a>
+                        <div id = "bulletWrapper">
+                          <ul class = "bullets">
+                            <li>Customize your visit with the procedures you want and need</li>
+                            <li>Open booking lets you book your appointment as you need it, when you need it</li>
+                            <li>Appointments start on time and finish on time</li>
+                        </ul>
+                        </div>
+                  </div>
+                  <div class="col-lg-6 offset-lg-6">
+                        <img src="images/main1.png" id = "firstimage">
                   </div>
               </div>
-                <div class="perspective-phone">
-                    <img src="images/smiling_placeholder.jpg" alt="perspective phone" class="img-main">
-                  </div>
           </div>
 
       </div>
     </header>
 
-    <!--<div class="section-special" id = "promobanner">
-        <div class="call-to-action">
-          <h4> CURRENT PROMOTION: FREE WHITENING </h4>
-          <p class = "text-light"> Enjoy a free professiona whitening with a basic cleaning </p>
-        </div>
-    </div>
-    <div class="section light-bg" id="features">-->
-
-        <div class="container">
+        <div class="container" id = "about">
             <div class="section-title">
                 <small>WHO WE ARE</small>
                 <h3>We are 100% owned, managed and operated <br>by Dental Hygienists</h3>
-                <p>Our practice is dedicated solely to preventive care and the promotion and enhancement of your oral health and overall wellness.<br>Take advantage of our short-notice appointments and obtain a visit quickly at a time that is convenient for you!</p>
+                <p id = "whoDescription">Many years ago, we began as a mobile dental hygiene clinic owned by independent dental hygienists who travelled all over the Greater Toronto Area bringing oral care to clients. Our strength came from our desire and willingness to overcome challenges in order to meet the unique circumstances and oral care needs of each individual community and client.
+Today, at Liberty Dental Hygiene, we remain independently owned and our hygienists continue to bring that same desire and willingness to customize care to your very needs, preferences and expectations.
+</p>
             </div>
 
 
@@ -112,74 +113,14 @@ URI     : https://colorlib.com
                                 <div class="media-body">
                                     <h4 class="card-title">You know what you want, and thats OK!</h4>
                                     <p class="card-text">At Liberty Dental Hygiene, we respect your freedom to choose treatment according to your personal
-                                    needs, limits, and expecations. Whether you choose a complete dental cleaning package, a cosmetic teeth whitening, or to simply polish your teeth and refresh your smile, it's up to you!</p>
+                                    needs, limits, and expectations. Whether you choose a complete dental cleaning package, a cosmetic teeth whitening, or to simply polish your teeth and refresh your smile, it's up to you!</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
-
-
-
-    </div>
-    <!-- // end .section -->
-    <div class="section" id = "about">
-        <div class="container">
-            <div class="section-title">
-                <small>OUR PEOPLE</small>
-                <h2>About our Dental Hygienist</h2>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-12">
-                      <p> I am a dental hygienist registered with the College of Dental
-                        Hygienists of Ontario (CDHO). My relevant educational background
-                        includes an Associate of Applied Science (dental hygiene) and a
-                        Bachelor of Science (psychology).</p>
-
-                     <p> I began my career working in general family dentistry and in
-                       dental clinics specializing in treatment of gum disease. I had the
-                       good fortune of working along-side many dentists, dental hygienists
-                       and other oral care professionals who were exceptionally passionate
-                       and skilled practitioners. It was under the mentorship of these
-                       dedicated professionals, that I developed and honed my clinical
-                       skills and knowledge.</p>
-
-                    <p> I then moved my practice away from the traditional dentist’s
-                      clinic toward a novel and exciting way of providing oral health
-                      care known as “independent dental hygiene”. With this new way of
-                      practice, came the ability for dental hygienists to provide key
-                      components of the dental hygiene appointment without prior
-                      authorization from a dentist; essentially, hygienists were now free
-                      to work independent of the dentist. This brought vast new possibilities
-                      for the profession of dental hygiene, and more importantly, improved choice
-                      and access to oral health and dental care for the client. </p>
-
-                  <p> I created a mobile dental hygiene clinic travelling to individuals
-                    and families facing social & economic, physical & developmental or
-                    emotional barriers to treatment at the dental office. I met some of
-                    the most resilient and amazing people who taught me great life-lessons
-                    in cultivating human compassion, acceptance, gratitude and how to truly
-                    listen and gain knowledge from each other. I learned how embracing these
-                    qualities in my practice could enrich the experience for both myself and
-                    my clients. </p>
-
-                <p> My latest venture involves bringing independent dental hygiene to
-                  residents and businesses at our location in Toronto’s Liberty Village.
-                  At Liberty Dental Hygiene, I aim to offer you not only flexibility and
-                  freedom of choice, but to also bring together the clinical foundation
-                  gained from years of practice, with those invaluable life-lessons, into every appointment. </p>
-
-               <p> I hope to give you a superior experience. </p>
-
-               <p> Lillian Yee, BSc, RDH</p>
-             </div>
-           </div>
-         </div>
-
     </div>
     <!-- // end .section -->
 
@@ -301,6 +242,62 @@ Book a consultation with us for a referral to one of our collaborating dental cl
   </div>
     <!-- // end .section -->
 
+    <div class="section">
+        <div class="container">
+            <div class="section-title">
+                <small>OUR PEOPLE</small>
+                <h2>About our Dental Hygienist</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-12">
+                      <p> I am a dental hygienist registered with the College of Dental
+                        Hygienists of Ontario (CDHO). My relevant educational background
+                        includes an Associate of Applied Science (dental hygiene) and a
+                        Bachelor of Science (psychology).</p>
+
+                     <p> I began my career working in general family dentistry and in
+                       dental clinics specializing in treatment of gum disease. I had the
+                       good fortune of working along-side many dentists, dental hygienists
+                       and other oral care professionals who were exceptionally passionate
+                       and skilled practitioners. It was under the mentorship of these
+                       dedicated professionals, that I developed and honed my clinical
+                       skills and knowledge.</p>
+
+                    <p> I then moved my practice away from the traditional dentist’s
+                      clinic toward a novel and exciting way of providing oral health
+                      care known as “independent dental hygiene”. With this new way of
+                      practice, came the ability for dental hygienists to provide key
+                      components of the dental hygiene appointment without prior
+                      authorization from a dentist; essentially, hygienists were now free
+                      to work independent of the dentist. This brought vast new possibilities
+                      for the profession of dental hygiene, and more importantly, improved choice
+                      and access to oral health and dental care for the client. </p>
+
+                  <p> I created a mobile dental hygiene clinic travelling to individuals
+                    and families facing social & economic, physical & developmental or
+                    emotional barriers to treatment at the dental office. I met some of
+                    the most resilient and amazing people who taught me great life-lessons
+                    in cultivating human compassion, acceptance, gratitude and how to truly
+                    listen and gain knowledge from each other. I learned how embracing these
+                    qualities in my practice could enrich the experience for both myself and
+                    my clients. </p>
+
+                <p> My latest venture involves bringing independent dental hygiene to
+                  residents and businesses at our location in Toronto’s Liberty Village.
+                  At Liberty Dental Hygiene, I aim to offer you not only flexibility and
+                  freedom of choice, but to also bring together the clinical foundation
+                  gained from years of practice, with those invaluable life-lessons, into every appointment. </p>
+
+               <p> I hope to give you a superior experience. </p>
+
+               <p> Lillian Yee, BSc, RDH</p>
+             </div>
+           </div>
+         </div>
+    </div>
+    <!-- // end .section -->
+
     <div class="section pt-0" id = "faq">
         <div class="container">
             <div class="section-title">
@@ -312,17 +309,16 @@ Book a consultation with us for a referral to one of our collaborating dental cl
                 <div class="col-md-6">
                     <h4 class="mb-3">Where can I get more pricing information?</h4>
                     <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. </p>
-                    <h4 class="mb-3">What payment methods do you accept?</h4>
-                    <p class="light-font mb-5">We accept and process private insurance plans and Ontario Disability Support Program (ODSP), as well as the following forms of payment: Visa, MasterCard, Debit, eTransfer or Cash.</p>
+                    <h4 class="mb-3">Do you service workplaces?</h4>
+                    <p class="light-font mb-5">At Liberty Dental Hygiene, we support local businesses to better support the health and wellness of their employees. Contact us to reserve your spot for one of our 20-minute employee health seminars or to inquire about our employee oral health programs.                    </p>
+
 
                 </div>
                 <div class="col-md-6">
-                    <h4 class="mb-3">What are your health and safety policies?</h4>
-                    <p class="light-font mb-5">All clinical procedures as well as the processing and sterilization of instruments are performed with strict adherence to established guidelines set out by the Canadian Dental Association and Toronto Public Health. For more information or for a copy of our sterilization protocol please contact us.</p>
-                    <h4 class="mb-3">Do you service workplaces?</h4>
-                    <p class="light-font mb-5">At Liberty Dental Hygiene, we support local businesses to better support the health and wellness of their employees. Contact us to reserve your spot for one of our 20-minute employee health seminars or to inquire about our employee oral health programs.
-                    </p>
-
+                  <h4 class="mb-3">What payment methods do you accept?</h4>
+                  <p class="light-font mb-5">We accept and process private insurance plans and Ontario Disability Support Program (ODSP), as well as the following forms of payment: Visa, MasterCard, Debit, eTransfer or Cash.</p>
+                  <h4 class="mb-3">What are your health and safety policies?</h4>
+                  <p class="light-font mb-5">All clinical procedures as well as the processing and sterilization of instruments are performed with strict adherence to established guidelines set out by the Canadian Dental Association and Toronto Public Health. For more information or for a copy of our sterilization protocol please contact us.</p>
                 </div>
             </div>
         </div>

@@ -92,8 +92,31 @@ p.lead {
 p.text-light {
   color: white;
 }
+
+#bulletWrapper {
+  margin-top: 2.5em;
+}
 .text-primary {
     color: #e38cb7 !important;
+}
+
+li {
+  color: #959094;
+}
+
+.bullets
+{
+  padding: 1em !important;
+  list-style: none;
+}
+
+.bullets li::before {
+  content: "\2022";
+  color: #d6619c;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .light-font {
@@ -162,7 +185,7 @@ p.text-light {
 
 .section-title {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .section-title small {
@@ -181,36 +204,39 @@ p.text-light {
     }
 }
 
-img {
-  max-width: 90%;
+#firstimage {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .container {
   overflow: hidden;
-  margin-top: 1em;
+  margin-top: 3em;
 }
 
 /* NAVBAR
 ----------------------*/
 
-.nav-menu {
-    transition: all 0.3s ease;
+#navContainer {
+    margin-top: 0em;
 }
 
-.nav-menu.is-scrolling,
+/* .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: none;
 }
 
 .nav-menu.is-scrolling {
     padding: 0;
-}
+} */
 
 .navbar-nav .nav-link {
     position: relative;
 }
 
-
+/*
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
@@ -226,7 +252,7 @@ img {
         height: 1px;
         position: absolute;
     }
-}
+} */
 
 
 
@@ -234,7 +260,6 @@ img {
 ----------------------*/
 
 header {
-    padding: 100px 0 0;
     color: #FFF;
 }
 
@@ -260,7 +285,7 @@ header {
 }
 
 .section-top {
-  padding: 120px 0 0 100px;
+  padding: 20px 0 0 100px;
 }
 
 @media (max-width:1200px) {
@@ -268,13 +293,13 @@ header {
         padding-bottom: 50%;
     }
     .section-top {
-      padding: 120px 0 0 100px;
+      padding: 40px 0 0 100px;
     }
 }
 
 @media (max-width:992px) {
     .section-top {
-      padding: 50px 0 0 0px;
+      padding: 20px 0 0 0px;
     }
     .img-main {
         display: block;
@@ -297,7 +322,7 @@ header {
         padding-bottom: 100%;
     }
     .section-top {
-      padding: 40px 0 0 0;
+      padding: 20px 0 0 0;
     }
 }
 
@@ -326,6 +351,11 @@ header {
   margin-right: 1em;
   margin-top: 1em;
 }
+
+#whoDescription {
+  margin: 1em;
+}
+
 .gradient-fill:before {
     color: #fc73b4;
     background-image: url("toothbrush_coloured.png");
@@ -425,12 +455,10 @@ header {
     .perspective-phone {
       max-width: 65%;
       height: auto;
-        margin-top: -250px;
         margin-left: 550px;
         margin-right: -600px;
     }
 }
-
 
 /*  TABS
 ----------------------*/
