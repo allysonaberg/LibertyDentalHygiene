@@ -1,13 +1,5 @@
 <!doctype html>
 <html lang="en">
-<!--
-
-Page    : index / MobApp
-Version : 1.0
-Author  : Colorlib
-URI     : https://colorlib.com
-
- -->
 
 <head>
     <title>Liberty Dental Hygiene</title>
@@ -32,19 +24,18 @@ URI     : https://colorlib.com
 <body>
 
     <!-- Nav Menu -->
-
     <div class="nav-menu">
         <div class="container" id = "navContainer">
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html"><img src="images/LDHLogoFull.png" class="img-fluid" alt="logo" id = "logoButton"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/LDHLogoFull.png" class="img-fluid" alt="logo" id = "logoButton"></a></button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"> <a class="nav-link" href="#about">ABOUT</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#services">SERVICES</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#about" id = "mainNav" >ABOUT</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#services" id = "mainNav">SERVICES</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#faq" id = "mainNav">FAQ</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#contact" id = "mainNav">CONTACT</a> </li>
                             </ul>
                         </div>
                     </nav>
@@ -80,21 +71,21 @@ URI     : https://colorlib.com
     </header>
 
         <div class="container" id = "about">
+
             <div class="section-title">
                 <small>WHO WE ARE</small>
                 <h3>We are 100% owned, managed and operated <br>by Dental Hygienists</h3>
                 <p id = "whoDescription">Many years ago, we began as a mobile dental hygiene clinic owned by independent dental hygienists who travelled all over the Greater Toronto Area bringing oral care to clients. Our strength came from our desire and willingness to overcome challenges in order to meet the unique circumstances and oral care needs of each individual community and client.
-Today, at Liberty Dental Hygiene, we remain independently owned and our hygienists continue to bring that same desire and willingness to customize care to your very needs, preferences and expectations.
-</p>
+                  Today, at Liberty Dental Hygiene, we remain independently owned and our hygienists continue to bring that same desire and willingness to customize care to your very needs, preferences and expectations.
+                </p>
             </div>
 
 
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-4">
                     <div class="card features">
                         <div class="card-body">
                             <div class="media">
-                                <!-- <img src="images/toothbrush_coloured.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" id = "pullpic"> -->
                                 <div class="media-body">
                                     <h4 class="card-title">Your time is precious, and we respect that!</h4>
                                     <p class="card-text">At Liberty Dental Hygiene, we value your time. Our stay-on-time
@@ -105,15 +96,27 @@ Today, at Liberty Dental Hygiene, we remain independently owned and our hygienis
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-4">
                     <div class="card features">
                         <div class="card-body">
                             <div class="media">
-                              <!-- <img src="images/toothpaste_coloured.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" id = "pullpic"> -->
                                 <div class="media-body">
                                     <h4 class="card-title">You know what you want, and thats OK!</h4>
                                     <p class="card-text">At Liberty Dental Hygiene, we respect your freedom to choose treatment according to your personal
                                     needs, limits, and expectations. Whether you choose a complete dental cleaning package, a cosmetic teeth whitening, or to simply polish your teeth and refresh your smile, it's up to you!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="card-title">Your life is busy, and we know it!</h4>
+                                    <p class="card-text">At Liberty Dental Hygiene, we understand life is busy, and sometimes, you just can’t commit to an appointment weeks or months ahead of time. With our extended hours
+                                      and open booking, there is no wait-list and you’ll get to see our dental hygienist at a time that is convenient for you. </p>
                                 </div>
                             </div>
                         </div>
@@ -126,6 +129,7 @@ Today, at Liberty Dental Hygiene, we remain independently owned and our hygienis
 
 
     <div class="section light-bg" id = "services">
+
         <div class="container">
             <div class="section-title">
               <small>WHAT WE OFFER</small>
@@ -149,6 +153,7 @@ Today, at Liberty Dental Hygiene, we remain independently owned and our hygienis
                     <a class="nav-link" data-toggle="tab" href="#desensitization">Other</a>
                 </li>
             </ul>
+
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="assessment">
                     <div class="d-flex flex-column flex-lg-row">
@@ -219,21 +224,20 @@ Today, at Liberty Dental Hygiene, we remain independently owned and our hygienis
                             <h3>Other</h3>
                             <p class="lead">Teeth Desensitization</p>
                             <p>Many of us have experienced annoying symptoms of teeth sensitivity from time to time. These can be described as short bursts of mild to intense stabbing sensation coming from the teeth when they are touched, exposed to temperature changes or to different types of foods.
-Some causes of teeth sensitivity are exposed roots related to receding gums, or worn-down tooth surfaces. Other factors for sensitivity include loss of mineralization in the enamel or even dental decay.
-Treatments for teeth sensitivity range from regular use of store-bought toothpastes aimed at reducing sensitivity to professional in-office teeth desensitization with a licensed oral care professional such as a dental hygienist.
-If you are experiencing symptoms of teeth sensitivity, book a consultation with our dental hygienist to uncover the cause of your sensitivity and to choose the treatment that is best for you!
+                              Some causes of teeth sensitivity are exposed roots related to receding gums, or worn-down tooth surfaces. Other factors for sensitivity include loss of mineralization in the enamel or even dental decay.
+                              Treatments for teeth sensitivity range from regular use of store-bought toothpastes aimed at reducing sensitivity to professional in-office teeth desensitization with a licensed oral care professional such as a dental hygienist.
+                              If you are experiencing symptoms of teeth sensitivity, book a consultation with our dental hygienist to uncover the cause of your sensitivity and to choose the treatment that is best for you!
                             </p>
                             <p class="lead">Custom Fitted Sports Guards</p>
                             <p> For those of us who enjoy playing sports, injuries to the mouth, jaw and head are always a risk. These include chipping, breaking, or loss of teeth, jaw joint damage, and sometimes brain concussion. These injuries are often the result of impact to the lower jaw where the energy force dissipates though the teeth, jaws and skull resulting in pain & recovery time, and even an expensive dental bill.
-A well fitted sports-guard is your best defense to mouth, jaw and head injuries as the appliance is designed to cushion and absorb the forces of impact reducing your chance of serious trauma.
-A custom sports guard fabricated by an oral care professional is fitted just for you and provides superior protection over generic/universal store-bought mouth protectors. An ideal guard offers good self-retention in the mouth, covers all teeth in the arch, does not cut or pinch the mouth, and easily allows for speech, swallowing and breathing.
-Make that appointment with our dental hygienist to get fitted for your custom sports guard. It’s well worth it!
+                              A well fitted sports-guard is your best defense to mouth, jaw and head injuries as the appliance is designed to cushion and absorb the forces of impact reducing your chance of serious trauma.
+                              A custom sports guard fabricated by an oral care professional is fitted just for you and provides superior protection over generic/universal store-bought mouth protectors. An ideal guard offers good self-retention in the mouth, covers all teeth in the arch, does not cut or pinch the mouth, and easily allows for speech, swallowing and breathing.
+                              Make that appointment with our dental hygienist to get fitted for your custom sports guard. It’s well worth it!
                             </p>
                             <p class="lead">Referral Services</p>
                             <p> As independent dental hygienists, our practice focuses primarily on dental hygiene care including treatment & prevention of oral disease, maintenance & promotion of good oral health, and cosmetic teeth whitening. If you need dental work not available at our clinic, we will be more than happy to communicate our findings to your current dentist or to refer you to one of our collaborating dentists.
-Book a consultation with us for a referral to one of our collaborating dental clinics!
-</p>
-
+                              Book a consultation with us for a referral to one of our collaborating dental clinics!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -248,13 +252,12 @@ Book a consultation with us for a referral to one of our collaborating dental cl
                 <small>OUR PEOPLE</small>
                 <h2>About our Dental Hygienist</h2>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-12">
-                      <p> I am a dental hygienist registered with the College of Dental
-                        Hygienists of Ontario (CDHO). My relevant educational background
-                        includes an Associate of Applied Science (dental hygiene) and a
-                        Bachelor of Science (psychology).</p>
+              <img src="images/main2.png" alt="graphic" id = "main2" align = "right">
+
+                    <p> I am a dental hygienist registered with the College of Dental
+                      Hygienists of Ontario (CDHO). My relevant educational background
+                      includes an Associate of Applied Science (dental hygiene) and a
+                      Bachelor of Science (psychology).</p>
 
                      <p> I began my career working in general family dentistry and in
                        dental clinics specializing in treatment of gum disease. I had the
@@ -274,7 +277,7 @@ Book a consultation with us for a referral to one of our collaborating dental cl
                       for the profession of dental hygiene, and more importantly, improved choice
                       and access to oral health and dental care for the client. </p>
 
-                  <p> I created a mobile dental hygiene clinic travelling to individuals
+                    <p> I created a mobile dental hygiene clinic travelling to individuals
                     and families facing social & economic, physical & developmental or
                     emotional barriers to treatment at the dental office. I met some of
                     the most resilient and amazing people who taught me great life-lessons
@@ -283,17 +286,15 @@ Book a consultation with us for a referral to one of our collaborating dental cl
                     qualities in my practice could enrich the experience for both myself and
                     my clients. </p>
 
-                <p> My latest venture involves bringing independent dental hygiene to
-                  residents and businesses at our location in Toronto’s Liberty Village.
-                  At Liberty Dental Hygiene, I aim to offer you not only flexibility and
-                  freedom of choice, but to also bring together the clinical foundation
-                  gained from years of practice, with those invaluable life-lessons, into every appointment. </p>
+                 <p> My latest venture involves bringing independent dental hygiene to
+                   residents and businesses at our location in Toronto’s Liberty Village.
+                   At Liberty Dental Hygiene, I aim to offer you not only flexibility and
+                   freedom of choice, but to also bring together the clinical foundation
+                   gained from years of practice, with those invaluable life-lessons, into every appointment. </p>
 
-               <p> I hope to give you a superior experience. </p>
+                <p> I hope to give you a superior experience. </p>
 
-               <p> Lillian Yee, BSc, RDH</p>
-             </div>
-           </div>
+                <p> Lillian Yee, BSc, RDH</p>
          </div>
     </div>
     <!-- // end .section -->
@@ -366,7 +367,6 @@ Book a consultation with us for a referral to one of our collaborating dental cl
                 <div class="col-lg-6">
                     <div class="social-icons">
                         <a href="#"><span class="ti-facebook"></span></a>
-                        <a href="#"><span class="ti-twitter-alt"></span></a>
                         <a href="#"><span class="ti-instagram"></span></a>
                     </div>
                 </div>
