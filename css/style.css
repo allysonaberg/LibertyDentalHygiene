@@ -204,7 +204,7 @@ header {
 }
 
 #mainImage {
-  max-width: 50%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -245,6 +245,12 @@ header {
 
 #bulletWrapper {
   margin-top: 2.5em;
+}
+
+#openingBanner {
+  color: var(--pink);
+  font-size: 24px;
+  margin-top: 1em;
 }
 
 #partnerContainer {
