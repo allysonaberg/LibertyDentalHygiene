@@ -163,12 +163,13 @@ li {
 
 #navContainer {
     margin-top: 0em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .navbar-nav .nav-link {
     position: relative;
 }
-
 
 
 .nav-tabs {
@@ -352,7 +353,7 @@ header {
 @media (max-width:767px) {
 
   #logoButton {
-    max-width: 85%;
+    max-width: 100%;
   }
 
   h1 {
