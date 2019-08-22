@@ -34,6 +34,7 @@ h1 {
     color: var(--dark-blue);
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 h2 {
@@ -42,6 +43,7 @@ h2 {
     color: var(--dark-blue);
     letter-spacing: -1px;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 h3 {
@@ -154,7 +156,6 @@ li {
 
 .container {
   overflow: hidden;
-  margin-top: 3em;
 }
 
 /* NAVBAR
@@ -191,9 +192,13 @@ li {
     color: var(--pink);
 }
 
+
 #mainNav {
   font-size: 14px;
   margin-left: 1em;
+}
+.fa.fa-navicon {
+  color:black;
 }
 
 /* HERO
@@ -255,6 +260,7 @@ header {
 
 #partnerContainer {
   margin-top: 0em;
+  margin-left: 3em;
 }
 
 #partners {
@@ -262,7 +268,7 @@ header {
 }
 
 #CDHA {
-  max-width: 19%;
+  max-width: 35%;
   margin-right: 1.5em;
   margin-left: 1.5em;
   margin-top: -1em;
@@ -278,7 +284,7 @@ header {
 }
 
 #DHPO {
-  max-width: 7%;
+  max-width: 17%;
   margin-right: 1.5em;
   margin-left: 1.5em;
   margin-top: -1em;
@@ -346,7 +352,7 @@ header {
 @media (max-width:767px) {
 
   #logoButton {
-    max-width: 80%;
+    max-width: 85%;
   }
 
   h1 {
@@ -384,7 +390,7 @@ header {
   height: auto;
   margin-left: 1em;
   margin-right: 1em;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 #whoDescription {
