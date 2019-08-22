@@ -434,6 +434,10 @@ header {
   height: auto;
 }
 
+#clickable {
+  color: var(--pink);
+}
+
 .card.features {
     border: 0;
     border-radius: 3px;
@@ -483,6 +487,19 @@ header {
         margin-left: 550px;
         margin-right: -600px;
     }
+}
+
+
+/* BLOG
+----------------------*/
+
+#blogTitle {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+#blogHeader {
+  text-align: center;
 }
 
 /*  TABS
