@@ -20,7 +20,7 @@ body {
 }
 
 a {
-    color: var(--grey);
+    color: var(--pink);
     weight: 200;
 }
 
@@ -31,10 +31,10 @@ a:focus {
 
 h1 {
     font-weight: 200;
-    color: var(--dark-blue);
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
+    color: var(--dark-blue);
 }
 
 h2 {
@@ -501,6 +501,13 @@ header {
 #blogHeader {
   text-align: center;
 }
+
+#awardPic, #suppliesPic {
+  max-width: 50%;
+  margin-top: 2em;
+}
+
+
 
 /*  TABS
 ----------------------*/
